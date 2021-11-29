@@ -267,7 +267,7 @@ function About(props) {
                   <ul className="flex">
                     <li className="text-center">
                       <a
-                        href="TA-AC-BACKEND-express-with-authentication-checkpoint-03-TNaaan"
+                        href="https://github.com/Aditya17Singh/TA-AC-BACKEND-express-with-authentication-checkpoint-03-TNaaan/tree/block-BNaafu"
                         target="_blank"
                         rel="noreferrer"
                       >
@@ -335,25 +335,25 @@ function About(props) {
         <div className="container">
           <h4 className="contact-text">Contact</h4>
           <form className="form-control-1">
-            <input
+            {/* <input
               className="input-control"
               type="text"
               placeholder="Your Name"
-            />
+            /> */}
             <input
               className="input-control"
               type="text"
               placeholder="Your Email"
             />
-            <textarea
+            {/* <textarea
               className="text-area"
               type="text"
               placeholder="Your Message"
-            />
+            /> */}
             {/* <button className="btn">Send Message</button> */}
             <button>
               <a
-                href="mailto:3daditya@gmail.com?Subject=Hello%20again"
+                href="mailto:adiyasngh14@gmail.com?Subject=Hello%20again"
                 target="_blank"
                 rel="noreferrer"
               >
