@@ -19,7 +19,14 @@ function About(props) {
           <div>
             <ul className="flex wrap aboutme ">
               <li className="flex-26">
-                Email: <a href="#">adiyasngh14@gmail.com</a>
+                Email:{" "}
+                <a
+                  href="mailto:adiyasngh14@gmail.com"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  adiyasngh14@gmail.com
+                </a>
               </li>
               <li className="flex-26">
                 Resume:{" "}
@@ -85,9 +92,9 @@ function About(props) {
       <section id="projects">
         <h4 className="container project">Projects</h4>
         <div className="wrap flex container relative align-stretch">
-          <div class="container-image" id="flexor">
-            <article class="image-article">
-              <h2 class="image-heading ">
+          <div className="container-image" id="flexor">
+            <article className="image-article">
+              <h2 className="image-heading ">
                 <div className="image-hover">
                   <img
                     className="width-full"
@@ -95,24 +102,24 @@ function About(props) {
                     alt="hello"
                   />
                 </div>
-                <nav class="nav-absolute">
-                  <ul class="flex">
-                    <li class="text-center">
+                <nav className="nav-absolute">
+                  <ul className="flex">
+                    <li className="text-center">
                       <a
                         href="https://github.com/Aditya17Singh/checkpoint-4"
                         target="_blank"
                         rel="noreferrer"
                       >
-                        <i class="fab fa-github"></i>
+                        <i className="fab fa-github"></i>
                       </a>
                     </li>
-                    <li class="text-center">
+                    <li className="text-center">
                       <a
                         href="https://aditya17singh.github.io/checkpoint-4/index.html"
                         target="_blank"
                         rel="noreferrer"
                       >
-                        <i class="fas fa-eye"></i>
+                        <i className="fas fa-eye"></i>
                       </a>
                     </li>
                   </ul>
@@ -124,9 +131,9 @@ function About(props) {
               </p>
             </article>
           </div>
-          <div class="container-image" id="flexor">
-            <article class="image-article">
-              <h2 class="image-heading ">
+          <div className="container-image" id="flexor">
+            <article className="image-article">
+              <h2 className="image-heading ">
                 <div className="image-hover">
                   <img
                     className="width-full"
@@ -134,24 +141,24 @@ function About(props) {
                     alt="got"
                   />
                 </div>
-                <nav class="nav-absolute">
-                  <ul class="flex">
+                <nav className="nav-absolute">
+                  <ul className="flex">
                     <li className="text-center">
                       <a
                         href="https://github.com/Aditya17Singh/TA-JS-DOM-and-Events-TJaaaf/tree/block-BJaaew/block-BJaaew"
                         target="_blank"
                         rel="noreferrer"
                       >
-                        <i class="fab fa-github"></i>
+                        <i className="fab fa-github"></i>
                       </a>
                     </li>
-                    <li class="text-center">
+                    <li className="text-center">
                       <a
                         href="https://aditya17singh.github.io/peopleOfGot/code/index.html"
                         target="_blank"
                         rel="noreferrer"
                       >
-                        <i class="fas fa-eye"></i>
+                        <i className="fas fa-eye"></i>
                       </a>
                     </li>
                   </ul>
@@ -164,9 +171,9 @@ function About(props) {
               </p>
             </article>
           </div>
-          <div class="container-image" id="flexor">
-            <article class="image-article">
-              <h2 class="image-heading ">
+          <div className="container-image" id="flexor">
+            <article className="image-article">
+              <h2 className="image-heading ">
                 <div className="image-hover">
                   <img
                     className="width-full"
@@ -174,24 +181,24 @@ function About(props) {
                     alt="hi"
                   />
                 </div>
-                <nav class="nav-absolute">
-                  <ul class="flex">
-                    <li class="text-center">
+                <nav className="nav-absolute">
+                  <ul className="flex">
+                    <li className="text-center">
                       <a
                         href="https://github.com/Aditya17Singh/spaceflight"
                         target="_blank"
                         rel="noreferrer"
                       >
-                        <i class="fab fa-github"></i>
+                        <i className="fab fa-github"></i>
                       </a>
                     </li>
-                    <li class="text-center">
+                    <li className="text-center">
                       <a
                         href="https://aditya17singh.github.io/spaceflight/code/index.html"
                         target="_blank"
                         rel="noreferrer"
                       >
-                        <i class="fas fa-eye"></i>
+                        <i className="fas fa-eye"></i>
                       </a>
                     </li>
                   </ul>
@@ -207,8 +214,8 @@ function About(props) {
         </div>
         <div className="wrap flex container relative align-stretch">
           <div class="container-image" id="flexor">
-            <article class="image-article">
-              <h2 class="image-heading ">
+            <article className="image-article">
+              <h2 className="image-heading ">
                 <div className="image-hover">
                   <img
                     className="width-full"
@@ -216,24 +223,24 @@ function About(props) {
                     alt="hi"
                   />
                 </div>
-                <nav class="nav-absolute">
-                  <ul class="flex">
-                    <li class="text-center">
+                <nav className="nav-absolute">
+                  <ul className="flex">
+                    <li className="text-center">
                       <a
                         href="https://github.com/Aditya17Singh/Github-battle"
                         target="_blank"
                         rel="noreferrer"
                       >
-                        <i class="fab fa-github"></i>
+                        <i className="fab fa-github"></i>
                       </a>
                     </li>
-                    <li class="text-center">
+                    <li className="text-center">
                       <a
                         href="https://mine-github-battle-aditya17singh.vercel.app/"
                         target="_blank"
                         rel="noreferrer"
                       >
-                        <i class="fas fa-eye"></i>
+                        <i className="fas fa-eye"></i>
                       </a>
                     </li>
                   </ul>
@@ -246,9 +253,9 @@ function About(props) {
               </p>
             </article>
           </div>
-          <div class="container-image" id="flexor">
-            <article class="image-article">
-              <h2 class="image-heading ">
+          <div className="container-image" id="flexor">
+            <article className="image-article">
+              <h2 classNameName="image-heading ">
                 <div className="image-hover">
                   <img
                     className="width-full"
@@ -256,9 +263,9 @@ function About(props) {
                     alt="hi"
                   />
                 </div>
-                <nav class="nav-absolute">
-                  <ul class="flex">
-                    <li class="text-center">
+                <nav className="nav-absolute">
+                  <ul className="flex">
+                    <li className="text-center">
                       <a
                         href="TA-AC-BACKEND-express-with-authentication-checkpoint-03-TNaaan"
                         target="_blank"
@@ -267,11 +274,11 @@ function About(props) {
                         <i class="fab fa-github"></i>
                       </a>
                     </li>
-                    <li class="text-center">
+                    {/* <li className="text-center">
                       <a href="#" target="_blank" rel="noreferrer">
                         <i class="fas fa-eye"></i>
                       </a>
-                    </li>
+                    </li> */}
                   </ul>
                 </nav>
                 Expense Tracker
@@ -292,24 +299,24 @@ function About(props) {
                     alt="hi"
                   />
                 </div>
-                <nav class="nav-absolute">
-                  <ul class="flex">
-                    <li class="text-center">
+                <nav className="nav-absolute">
+                  <ul className="flex">
+                    <li className="text-center">
                       <a
                         href="https://github.com/Aditya17Singh/blog-app"
                         target="_blank"
                         rel="noreferrer"
                       >
-                        <i class="fab fa-github"></i>
+                        <i className="fab fa-github"></i>
                       </a>
                     </li>
-                    <li class="text-center">
+                    <li className="text-center">
                       <a
                         href="https://blog-application-og59a4foo-aditya17singh.vercel.app/"
                         target="_blank"
                         rel="noreferrer"
                       >
-                        <i class="fas fa-eye"></i>
+                        <i className="fas fa-eye"></i>
                       </a>
                     </li>
                   </ul>
@@ -343,7 +350,16 @@ function About(props) {
               type="text"
               placeholder="Your Message"
             />
-            <button className="btn">Send Message</button>
+            {/* <button className="btn">Send Message</button> */}
+            <button>
+              <a
+                href="mailto:3daditya@gmail.com?Subject=Hello%20again"
+                target="_blank"
+                rel="noreferrer"
+              >
+                Send Mail
+              </a>
+            </button>
           </form>
         </div>
       </section>
