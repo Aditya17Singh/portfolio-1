@@ -331,26 +331,26 @@ function About(props) {
           </div>
         </div>
       </section>
-      <section id="contact">
+      {/* <section id="contact">
         <div className="container">
           <h4 className="contact-text">Contact</h4>
           <form className="form-control-1">
-            {/* <input
+            <input
               className="input-control"
               type="text"
               placeholder="Your Name"
-            /> */}
+            />
             <input
               className="input-control"
               type="text"
               placeholder="Your Email"
             />
-            {/* <textarea
+            <textarea
               className="text-area"
               type="text"
               placeholder="Your Message"
-            /> */}
-            {/* <button className="btn">Send Message</button> */}
+            />
+            <button className="btn">Send Message</button>
             <button>
               <a
                 href="mailto:adiyasngh14@gmail.com?Subject=Hello%20again"
@@ -362,7 +362,7 @@ function About(props) {
             </button>
           </form>
         </div>
-      </section>
+      </section> */}
       <footer className="footer">
         <small>Thank You</small>
       </footer>

@@ -23,9 +23,9 @@ function Headers(props) {
             <li className="btn-5 home">
               <a href="#projects">Projects</a>
             </li>
-            <li className="btn-5 home">
+            {/* <li className="btn-5 home">
               <a href="#contact">Contact</a>
-            </li>
+            </li> */}
           </ul>
         </nav>
       </header>
