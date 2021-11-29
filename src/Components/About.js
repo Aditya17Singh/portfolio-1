@@ -30,7 +30,10 @@ function About(props) {
               </li>
               <li className="flex-26">
                 Resume:{" "}
-                <a href="file:///C:/Users/aditya%20singh/Downloads/Aditya-Resume.pdf">
+                <a
+                  href="https://www.canva.com/design/DAExG7ZevCc/IYoEGNJrgSviez-u6tX7mQ/view?utm_content=DAExG7ZevCc&utm_campaign=designshare&utm_medium=link&utm_source=shareyourdesignpanel"
+                  target="_blank"
+                >
                   Click Me
                 </a>
               </li>
