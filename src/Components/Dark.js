@@ -23,7 +23,7 @@ class Dark extends React.Component {
         >
           <div className=" ">
             <button onClick={this.handleChange} className="btn-p btn-position">
-            <i class="fas fa-moon"></i>
+            <i className="fas fa-moon"></i>
             </button>
           </div>
         </div>

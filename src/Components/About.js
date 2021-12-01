@@ -8,17 +8,17 @@ function About(props) {
   return (
     <>
       <section className="about">
-        <div className="container" id="about">
+        <div className="container ms-text-center" id="about">
           <span>
             <li>{props.dark}</li>
           </span>
           <div>
-            <h2 className="project about-line">About Me</h2>
-            <span className="name-text">Hi I'm Aditya Narayan Singh</span>
+            <h2 className="project about-line ms-text-center">About Me</h2>
+            <span className="name-text ms-text-center">Hi I'm Aditya Narayan Singh</span>
           </div>
           <div>
-            <ul className="flex wrap aboutme ">
-              <li className="flex-26">
+            <ul className="flex wrap wrap-media aboutme ">
+              <li className="flex-26 flex-50">
                 Email:{" "}
                 <a
                   href="mailto:adiyasngh14@gmail.com"
@@ -28,7 +28,7 @@ function About(props) {
                   adiyasngh14@gmail.com
                 </a>
               </li>
-              <li className="flex-26">
+              <li className="flex-26 flex-50">
                 Resume:{" "}
                 <a
                   href="https://www.canva.com/design/DAExG7ZevCc/IYoEGNJrgSviez-u6tX7mQ/view?utm_content=DAExG7ZevCc&utm_campaign=designshare&utm_medium=link&utm_source=shareyourdesignpanel"
@@ -37,65 +37,65 @@ function About(props) {
                   Click Me
                 </a>
               </li>
-              <li className="flex-26">Education: B.Tech(Mechanical)</li>
-              <li className="flex-26">Mobile: 8375004856</li>
-              <li className="flex-26">City: Siwan (Bihar), India</li>
-              <li className="flex-26">Current-City: Dharamshala, India</li>
+              <li className="flex-26 flex-50">Education: B.Tech(Mechanical)</li>
+              <li className="flex-26 flex-50">Mobile: 8375004856</li>
+              <li className="flex-26 flex-50">City: Siwan (Bihar), India</li>
+              <li className="flex-26 flex-50">Current-City: Dharamshala, India</li>
             </ul>
           </div>
         </div>
       </section>
       <section className="about" id="skills">
         <div className="container">
-          <h3 className="project skills">Skills</h3>
+          <h3 className="project skills ms-text-center">Skills</h3>
         </div>
         <ul className="container flex wrap bottom">
-          <li className="flex-20 react-logo">
+          <li className="flex-20 flex-50 react-logo">
             <i class="fab fa-react"></i>
             <div className="text-react">React</div>
           </li>
-          <li className="flex-20 react-logo">
+          <li className="flex-20 flex-50 react-logo">
             <i class="fab fa-node-js"></i>
             <div className="text-react">Node</div>
           </li>
-          <li className="flex-20 react-logo">
+          <li className="flex-20 flex-50 react-logo">
             <i class="fab fa-html5"></i>
             <div className="text-react">HTML</div>
           </li>
-          <li className="flex-20 react-logo">
+          <li className="flex-20 flex-50 react-logo">
             <i class="fab fa-css3-alt"></i>
             <div className="text-react">CSS</div>
           </li>
-          <li className="flex-20 react-logo">
+          <li className="flex-20 flex-50 react-logo">
             <i class="fab fa-js"></i>
             <div className="text-react">JavaScript</div>
           </li>
-          <li className="flex-20 react-logo">
+          <li className="flex-20 flex-50 react-logo">
             <SiRedux />
             <div className="text-react">Redux</div>
           </li>
-          <li className="flex-20 react-logo">
+          <li className="flex-20 flex-50 react-logo">
             <SiTailwindcss />
             <div className="text-react">Talwind CSS</div>
           </li>
-          <li className="flex-20 react-logo">
+          <li className="flex-20 flex-50 react-logo">
             <DiMongodb />
             <div className="text-react">Mongodb</div>
           </li>
-          <li className="flex-20 react-logo">
+          <li className="flex-20 flex-50 react-logo">
             <DiSass />
             <div className="text-react">SCSS/SAAS</div>
           </li>
-          <li className="flex-20 react-logo">
+          <li className="flex-20 flex-50 react-logo">
             <i class="fab fa-git-alt"></i>
             <div className="text-react">git</div>
           </li>
         </ul>
       </section>
       <section id="projects">
-        <h4 className="container project">Projects</h4>
+        <h4 className="container project ms-text-center">Projects</h4>
         <div className="wrap flex container relative align-stretch">
-          <div className="container-image" id="flexor">
+          <div className="container-image flex-100" id="flexor">
             <article className="image-article">
               <h2 className="image-heading ">
                 <div className="image-hover">
@@ -105,8 +105,8 @@ function About(props) {
                     alt="hello"
                   />
                 </div>
-                <nav className="nav-absolute">
-                  <ul className="flex">
+                <nav className="nav-absolute ms-relative">
+                  <ul className="flex ms-nav">
                     <li className="text-center">
                       <a
                         href="https://github.com/Aditya17Singh/checkpoint-4"
@@ -134,7 +134,7 @@ function About(props) {
               </p>
             </article>
           </div>
-          <div className="container-image" id="flexor">
+          <div className="container-image flex-100" id="flexor">
             <article className="image-article">
               <h2 className="image-heading ">
                 <div className="image-hover">
@@ -144,8 +144,8 @@ function About(props) {
                     alt="got"
                   />
                 </div>
-                <nav className="nav-absolute">
-                  <ul className="flex">
+                <nav className="nav-absolute ms-relative">
+                  <ul className="flex ms-nav">
                     <li className="text-center">
                       <a
                         href="https://github.com/Aditya17Singh/TA-JS-DOM-and-Events-TJaaaf/tree/block-BJaaew/block-BJaaew"
@@ -174,7 +174,7 @@ function About(props) {
               </p>
             </article>
           </div>
-          <div className="container-image" id="flexor">
+          <div className="container-image flex-100" id="flexor">
             <article className="image-article">
               <h2 className="image-heading ">
                 <div className="image-hover">
@@ -184,8 +184,8 @@ function About(props) {
                     alt="hi"
                   />
                 </div>
-                <nav className="nav-absolute">
-                  <ul className="flex">
+                <nav className="nav-absolute ms-relative">
+                  <ul className="flex ms-nav">
                     <li className="text-center">
                       <a
                         href="https://github.com/Aditya17Singh/spaceflight"
@@ -216,7 +216,7 @@ function About(props) {
           </div>
         </div>
         <div className="wrap flex container relative align-stretch">
-          <div class="container-image" id="flexor">
+          <div class="container-image flex-100" id="flexor">
             <article className="image-article">
               <h2 className="image-heading ">
                 <div className="image-hover">
@@ -226,8 +226,8 @@ function About(props) {
                     alt="hi"
                   />
                 </div>
-                <nav className="nav-absolute">
-                  <ul className="flex">
+                <nav className="nav-absolute ms-relative">
+                  <ul className="flex ms-nav">
                     <li className="text-center">
                       <a
                         href="https://github.com/Aditya17Singh/Github-battle"
@@ -256,7 +256,7 @@ function About(props) {
               </p>
             </article>
           </div>
-          <div className="container-image" id="flexor">
+          <div className="container-image flex-100" id="flexor">
             <article className="image-article">
               <h2 classNameName="image-heading ">
                 <div className="image-hover">
@@ -266,8 +266,8 @@ function About(props) {
                     alt="hi"
                   />
                 </div>
-                <nav className="nav-absolute">
-                  <ul className="flex">
+                <nav className="nav-absolute ms-relative">
+                  <ul className="flex ms-nav">
                     <li className="text-center">
                       <a
                         href="https://github.com/Aditya17Singh/TA-AC-BACKEND-express-with-authentication-checkpoint-03-TNaaan/tree/block-BNaafu"
@@ -292,7 +292,7 @@ function About(props) {
               </p>
             </article>
           </div>
-          <div class="container-image" id="flexor">
+          <div class="container-image flex-100" id="flexor">
             <article class="image-article">
               <h2 class="image-heading ">
                 <div className="image-hover">
@@ -302,8 +302,8 @@ function About(props) {
                     alt="hi"
                   />
                 </div>
-                <nav className="nav-absolute">
-                  <ul className="flex">
+                <nav className="nav-absolute ms-relative">
+                  <ul className="flex ms-nav">
                     <li className="text-center">
                       <a
                         href="https://github.com/Aditya17Singh/blog-app"
@@ -334,38 +334,6 @@ function About(props) {
           </div>
         </div>
       </section>
-      {/* <section id="contact">
-        <div className="container">
-          <h4 className="contact-text">Contact</h4>
-          <form className="form-control-1">
-            <input
-              className="input-control"
-              type="text"
-              placeholder="Your Name"
-            />
-            <input
-              className="input-control"
-              type="text"
-              placeholder="Your Email"
-            />
-            <textarea
-              className="text-area"
-              type="text"
-              placeholder="Your Message"
-            />
-            <button className="btn">Send Message</button>
-            <button>
-              <a
-                href="mailto:adiyasngh14@gmail.com?Subject=Hello%20again"
-                target="_blank"
-                rel="noreferrer"
-              >
-                Send Mail
-              </a>
-            </button>
-          </form>
-        </div>
-      </section> */}
       <footer className="footer">
         <small>Thank You</small>
       </footer>

@@ -3,14 +3,18 @@ import React from "react";
 function Headers(props) {
   return (
     <>
-      <header className="header header-fixed flex container">
+      <header className="header padding header-fixed flex container">
         <div className="profile">
           <strong className="strong">
             <span href="#">Aditya Narayan Singh</span>
           </strong>
         </div>
-        <nav>
-          <ul className="flex nav-menu">
+        <label class="bars" for="toggle">
+          <i class="fas fa-bars"></i>
+        </label>
+        <input id="toggle" className="toggel-bar" type="checkbox"/>
+        <nav className="nav-menu">
+          <ul className="flex  column-1">
             <li className="btn-5 home">
               <a href="#home">Home</a>
             </li>
@@ -23,13 +27,9 @@ function Headers(props) {
             <li className="btn-5 home">
               <a href="#projects">Projects</a>
             </li>
-            {/* <li className="btn-5 home">
-              <a href="#contact">Contact</a>
-            </li> */}
           </ul>
         </nav>
       </header>
-        
     </>
   );
 }
