@@ -601,7 +601,7 @@ h1 {
   border-radius: 3px;
 }
 .image-article:hover .nav-absolute {
-  display: flex;
+  display: block;
 }
 .relative {
   position: relative;
@@ -610,7 +610,7 @@ h1 {
   font-size: 1.6rem;
 }
 .text-center a i {
-  color: white;
+  color: gray;
 }
 .input-control {
   display: block;

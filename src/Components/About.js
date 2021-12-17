@@ -38,7 +38,7 @@ function About(props) {
                 </a>
               </li>
               <li className="flex-26 flex-50">Education: B.Tech(Mechanical)</li>
-              <li className="flex-26 flex-50">Mobile: 8375004856</li>
+              <li className="flex-26 flex-50">Mobile: <a href="tel:8375004856">Call Me</a></li>
               <li className="flex-26 flex-50">City: Siwan (Bihar), India</li>
               <li className="flex-26 flex-50">Current-City: Dharamshala, India</li>
             </ul>
@@ -277,11 +277,11 @@ function About(props) {
                         <i class="fab fa-github"></i>
                       </a>
                     </li>
-                    {/* <li className="text-center">
-                      <a href="#" target="_blank" rel="noreferrer">
+                    <li className="text-center">
+                      <a href="https://expense-tracker-v01.herokuapp.com/" target="_blank" rel="noreferrer">
                         <i class="fas fa-eye"></i>
                       </a>
-                    </li> */}
+                    </li>
                   </ul>
                 </nav>
                 Expense Tracker
@@ -315,7 +315,7 @@ function About(props) {
                     </li>
                     <li className="text-center">
                       <a
-                        href="https://blog-application-og59a4foo-aditya17singh.vercel.app/"
+                        href="https://blog-application-odeen6ar8-aditya17singh.vercel.app/"
                         target="_blank"
                         rel="noreferrer"
                       >
